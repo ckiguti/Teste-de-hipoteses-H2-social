@@ -48,7 +48,7 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | non.gamified | upper  | fss      |   8 | 3.764 |  3.889 | 2.667 | 4.556 | 0.630 | 0.223 | 0.526 | 0.722 | YES      |   -0.342 |   -1.286 |
 | NA           | NA     | fss      |  32 | 3.528 |  3.444 | 2.556 | 4.556 | 0.620 | 0.110 | 0.223 | 0.833 | YES      |    0.327 |   -1.096 |
 
-![](/home/rstudio/report/ancova/f13b1225c80b7ea6/results/ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
     ## [1] "P19"
 
@@ -122,7 +122,7 @@ ggscatter(sdat[["fss"]], x=covar, y="fss", facet.by=between, short.panel.labs = 
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](/home/rstudio/report/ancova/f13b1225c80b7ea6/results/ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ### Assumption: Homogeneity of data distribution
 
@@ -148,7 +148,7 @@ Descriptive statistics of data with normal distribution
 | fss.3 | non.gamified | lower  | fss      |   8 | 3.292 |  3.278 | 2.556 | 3.667 | 0.346 | 0.122 | 0.289 | 0.333 |
 | fss.4 | non.gamified | upper  | fss      |   8 | 3.764 |  3.889 | 2.667 | 4.556 | 0.630 | 0.223 | 0.526 | 0.722 |
 
-![](/home/rstudio/report/ancova/f13b1225c80b7ea6/results/ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 ## Computation of ANCOVA test and Pairwise Comparison
 
@@ -192,7 +192,7 @@ plots <- twoWayAncovaPlots(sdat[["fss"]], "fss", between
 plots[["scenario"]]
 ```
 
-![](/home/rstudio/report/ancova/f13b1225c80b7ea6/results/ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 #### Plot for: `fss` \~ `social`
 
@@ -200,7 +200,7 @@ plots[["scenario"]]
 plots[["social"]]
 ```
 
-![](/home/rstudio/report/ancova/f13b1225c80b7ea6/results/ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
 ### Textual Report
 
